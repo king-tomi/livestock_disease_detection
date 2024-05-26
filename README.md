@@ -16,3 +16,27 @@ The project aims to develop a livestock disease prediction system that preserves
    ```bash
    git clone https://github.com/king-tomi/livestock-disease-prediction.git
    cd livestock-disease-prediction
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+## Usage
+
+- Upload an image of livestock through the Streamlit interface.
+- The image will be processed and transformed into a graph.
+- The model will predict the disease class of the livestock.
+
+## Model Details
+
+- Architecture: Graph Convolutional Network (GCN)
+- Framework: PyTorch
+- Dataset: Custom dataset for livestock diseases
+
+## Contributing
+
+Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
