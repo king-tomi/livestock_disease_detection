@@ -1,10 +1,13 @@
-# Livestock Disease Prediction System
+
+### README for Alzheimer's Detection in Livestock
+
+# Alzheimer's Detection in Livestock
 
 ## Overview
-This repository contains the code and resources for the Livestock Disease Prediction System, a Federated Learning-based solution to predict livestock diseases from images. The system utilizes a Graph Convolutional Network (GCN) to enhance classification accuracy.
+This repository contains the code and resources for an Alzheimer's Detection System in livestock using a Federated Learning-based solution. The system utilizes a Graph Convolutional Network (GCN) to enhance classification accuracy.
 
 ## Project Description
-The project aims to develop a livestock disease prediction system that preserves data privacy and ensures efficient processing. Users can upload images of livestock through a Streamlit interface, which are then processed and transformed into graph data structures for prediction. The system classifies the images into different disease categories, aiding in timely and accurate disease detection.
+The project aims to develop an Alzheimer's detection system for livestock that preserves data privacy and ensures efficient processing. Users can upload images of livestock through a Streamlit interface, which are then processed and transformed into graph data structures for prediction. The system classifies the images into different disease categories, aiding in timely and accurate disease detection.
 
 ## Features
 - Federated Learning model for data privacy
@@ -14,8 +17,9 @@ The project aims to develop a livestock disease prediction system that preserves
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/king-tomi/livestock-disease-prediction.git
-   cd livestock-disease-prediction
+   git clone https://github.com/king-tomi/livestock-alzheimers-detection.git
+   cd livestock-alzheimers-detection
+
 
 2. Install the required dependencies:
    ```bash
@@ -35,7 +39,7 @@ The project aims to develop a livestock disease prediction system that preserves
 
 - Architecture: Graph Convolutional Network (GCN)
 - Framework: PyTorch
-- Dataset: Custom dataset for livestock diseases
+- Dataset: Custom dataset for livestock diseases on Alzheimer's
 
 ## Contributing
 
